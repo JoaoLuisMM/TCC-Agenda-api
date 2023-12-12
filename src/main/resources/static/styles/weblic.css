@@ -1,0 +1,91 @@
+html {
+  /* 2 linhas abaixo para o rodapé - componente footer */
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Para o tamanho da fonte padrão do sistema */
+  font-size: 0.75rem;
+  /* Para o cabeçalho - componente header */
+  padding-top: 70px;
+  /* Para o rodapé - componente footer */
+  margin-bottom: 40px;
+}
+
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.lic-app-header {
+  height: 55px;
+  background-color: #d3dbc8;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(1, 1, 1);
+}
+
+.float-right {
+  float: right!important;
+}
+
+.float-left {
+  float: left!important;
+}
+
+.p-link {
+  font-size: small !important;
+}
+
+.btn-info {
+  color: #000;
+  background-color: #17a2b8 !important;
+  border-color: #17a2b8 !important;
+}
+
+.form-control {
+  font-size: inherit !important;
+}
+
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+}
+
+button.close {
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: .4rem .4rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
+.input-text-valor {
+  text-align: right !important;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+a:hover{
+  text-decoration: underline !important;
+}
